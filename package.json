@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy":"gh-pages -d landingPage"
+    "deploy":"gh-pages -d /Users/joeygaitan/make-school/sectionTwo/spd1-2/landingPage"
   },
   "repository": {
     "type": "git",
