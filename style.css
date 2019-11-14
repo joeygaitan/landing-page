@@ -10,7 +10,7 @@ body{
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
+  background-color: darkgray; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   display: grid;
@@ -18,7 +18,7 @@ body{
   grid-row-gap: 0;
 }
 
-.sideNav > a {
+.sideNav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -39,6 +39,7 @@ body{
  text-align: center;
  height: 10em;
  display: flex;
+ flex-direction: column;
  align-items: center;
  justify-content: center;
  font-size: 30px;
