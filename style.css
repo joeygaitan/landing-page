@@ -3,23 +3,16 @@ body{
     font-family: sans-serif;
 }
 
-.navbar{
+.navBar{
  position: fixed;
-}
-
-.navBar:hover{
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 130px; /* Set the width of the sidebar */
-  position: fixed;
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: darkgray; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  display: grid;
-  grid-row: auto;
-  grid-column-gap: 0;
+ top: 0;
+ background-color: darkgray;
+ overflow-x: hidden;
+ height: 100%; /* Full-height: remove this if you want "auto" height */
+ width: 130px;
+ left: 0;
+ display: grid;
+ grid-template-rows: 10% 10% 10% 10% 60%;
 }
 
 .nav{
@@ -35,6 +28,7 @@ body{
 }
 
 .body{
+    margin-left: 130px;
     margin-left: 100em;
 }
 
@@ -49,6 +43,7 @@ body{
  align-items: center;
  justify-content: center;
  font-size: 30px;
+ margin-left: 130px;
 }
 
 #header h1,h3{
@@ -56,12 +51,14 @@ body{
 }
 
 .bodyInfo{
+    margin-left: 130px;
     background-color: #0bdad7;
     font-size: 25px;
     text-align: center;
 }
 
 #contact{
+    margin-left: 130px;
     text-align: center;
     background-color: lightblue
 }
