@@ -1,12 +1,11 @@
 body{
-    text-align: center;
     background-color: #028482;
     font-family: sans-serif;
 }
 
 .navBar{
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 130px; /* Set the width of the sidebar */
   position: fixed;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -16,16 +15,18 @@ body{
   padding-top: 20px;
   display: grid;
   grid-row: auto;
-  grid-row-gap: 0;
+  grid-column-gap: 0;
 }
 
-.sideNav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-  }
-.sideNav a:hover{
+.nav{
+    margin-bottom: -10em;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    text-align: center;
+}
+
+.nav:hover{
     color:white
 }
 
@@ -53,8 +54,10 @@ body{
 .bodyInfo{
     background-color: #0bdad7;
     font-size: 25px;
+    text-align: center;
 }
 
 #contact{
-    background-color: white
+    text-align: center;
+    background-color: lightblue
 }
